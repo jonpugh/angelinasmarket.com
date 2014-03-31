@@ -17,12 +17,12 @@ h1 {
 
 header.jumbotron {
     margin-bottom: 0;
-    background: #F2F5E0;
-
+    background: #E7E0B6;
+    color: #955332;
 }
 
 .jumbotron h1 {
-    color: #773128;
+
 }
 
 section#contact {
