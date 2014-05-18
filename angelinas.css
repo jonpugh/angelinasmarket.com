@@ -12,8 +12,16 @@ body {
 }
 
 h1 {
-    font-family: 'Playfair Display SC', serif;
-    font-weight: bold;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  margin: 0px auto;
+}
+h1 span {
+  text-indent: -99999999px;
+}
+h1 img {
+  max-width: 100%;
+  height: auto;
 }
 
 header.jumbotron {
