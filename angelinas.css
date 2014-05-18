@@ -3,6 +3,7 @@
  * Current Palette
  * http://color.hailpixel.com/#F2F5E0,997233,477728,773128,141B09,F2F0D9,
  * http://color.hailpixel.com/#F2F5E0,997233,477728,773128,141B09,D4B27D,E7E0B6,955332,
+ * http://color.hailpixel.com/#F2F5E0,997233,477728,2E548A,A7C9E2,
  */
 
 body {
@@ -22,16 +23,53 @@ h1 span {
 h1 img {
   max-width: 100%;
   height: auto;
+  position: relative;
+  z-index: 3;
 }
 
 header.jumbotron {
     margin-bottom: 0;
-    background: #E7E0B6;
-    color: #955332;
+  background: #2E548A;
+}
+header {
+    background: #2E548A;
+    color: #A7C9E2;
 }
 
-.jumbotron h1 {
+header #hi {
+  position: absolute;
+  top: 29px;
+  right: 20px;
+  color:#A7C9E2;
+}
 
+header #hi .hi-icon {
+  color: #10375C;
+  position: absolute;
+
+  font-size: 18em;
+  top: -108px;
+  left: -23px;
+  z-index: 1;
+}
+header #hi p {
+  z-index: 4;
+position: relative;
+}
+header #hi a:hover {
+ color: white;
+  text-decoration: none;
+}
+section#callout {
+  background: #A7C9E2;
+  color:#2E548A;
+
+  text-align: center;
+  font-weight: bold;
+  padding: 1em 1em;
+}
+section#callout h2 {
+  font-weight: bold;
 }
 
 section#contact {
@@ -60,4 +98,39 @@ section#social a:hover,
 section#social a:active
 {
     color: #EFE89A;
+}
+
+
+@media (max-width: 970px) {
+  header #hi {
+    top: 11px;
+    right: 6px;
+  }
+  header #hi p {
+    font-size: 1.1em;
+  }
+  header #hi .hi-icon {
+    font-size: 12em;
+    top: -82px;
+    left: -9px;
+  }
+
+
+}
+@media (max-width: 485px) {
+
+  header #hi {
+    top: 11px;
+    right: 6px;
+  }
+  header #hi p {
+    font-size: .8em;
+  }
+  header #hi .hi-icon {
+    font-size: 8.5em;
+
+    top: -53px;
+    left: -5px;
+  }
+
 }
