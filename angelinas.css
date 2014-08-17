@@ -21,7 +21,7 @@ h1 span {
   text-indent: -99999999px;
 }
 h1 img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   position: relative;
   z-index: 3;
