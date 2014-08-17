@@ -72,8 +72,9 @@ section#callout h2 {
   font-weight: bold;
 }
 
-section#contact {
+section#hours {
     color: #F2F5E0;
+  background-color: #a17848;
     text-align: center;
     font-weight: bold;
     font-size: 1.0em;
