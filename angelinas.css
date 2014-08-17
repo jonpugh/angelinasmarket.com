@@ -90,6 +90,7 @@ section#social {
 section#social a {
     color: #F2F5E0;
     font-size: 2.0em;
+    padding:.4em;
 }
 section#social a:hover,
 section#social a:active
