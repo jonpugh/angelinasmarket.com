@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Nixie One', cursive;
-    background: #477728;
+    background: #46382c;
     color: #141B09;
 }
 
@@ -73,24 +73,21 @@ section#callout h2 {
 }
 
 section#contact {
-    background: #997233;
     color: #F2F5E0;
     text-align: center;
     font-weight: bold;
-    font-size: 2.0em;
+    font-size: 1.0em;
     padding: 2em 1em;
 }
 section#social {
-    background: #477728;
-    color: #F2F5E0;
-    text-align: center;
-    font-weight: bold;
-    padding: 5em 1em;
+  background: #477728;
+  color: #F2F5E0;
+  text-align: center;
+  font-weight: bold;
+  padding: 2em;
+  overflow: hidden;
 }
-
-
 section#social a {
-    display: block;
     color: #F2F5E0;
     font-size: 2.0em;
 }
@@ -100,6 +97,17 @@ section#social a:active
     color: #EFE89A;
 }
 
+section#social address {
+  float: left;
+}
+section#social #links {
+  float: right;
+}
+
+section #slides {
+  clear: both;
+  background: #46382c;
+}
 
 @media (max-width: 970px) {
   header #hi {
@@ -133,4 +141,31 @@ section#social a:active
     left: -5px;
   }
 
+}
+
+#myCarousel {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+
+  text-shadow: 0 1px 2px rgba(0,0,0,.8);
+}
+
+.carousel-caption a {
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-caption {
+    display: block;
+  }
 }
